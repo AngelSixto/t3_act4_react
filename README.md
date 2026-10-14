@@ -75,7 +75,7 @@ setTareas([...tareas, tarea])
 También lo uso para el texto que se escribe en el input (`nuevaTarea`), para el filtro seleccionado (`filtro`) y, en `TarjetaPerfil`, para mostrar u ocultar los detalles (`mostrarDetalles`).
 
 ### d) Enlace del repositorio de GitHub
-https://github.com/TU_USUARIO/t3_act4_react
+https://github.com/AngelSixto/t3_act4_react.git
 
 ### e) Enlace del proyecto desplegado en GitHub Pages
-https://TU_USUARIO.github.io/t3_act4_react/
+https://angelsixto.github.io/t3_act4_react/
