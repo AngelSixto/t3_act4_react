@@ -1,4 +1,43 @@
-node_modules
-dist
+# ==========================================
+# .gitignore - Proyecto React + Vite
+# t3_act4_react
+# ==========================================
+
+# --- Dependencias (se reinstalan con "npm install") ---
+node_modules/
+
+# --- Carpetas de build / compilación (se generan con "npm run build") ---
+dist/
+dist-ssr/
+build/
+.cache/
+
+# --- Variables de entorno (pueden contener contraseñas o API keys) ---
+.env
+.env.*
+!.env.example
+
+# --- Logs y archivos de depuración ---
+logs/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Configuración del editor ---
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.sw?
+
+# --- Archivos del sistema operativo ---
 .DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Archivos locales y temporales ---
+*.local
+*.tmp
+coverage/
